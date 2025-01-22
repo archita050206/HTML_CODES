@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports day registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <form action="/submit" method="post" id="ff">
+        <fieldset>
+            <legend>Application form</legend>
+        <div id="abc"><label for="name" name="name" id="name">Name: </label>
+            <input type="text" name="name">
+        </div>
+        <div><label for="age" name="age" id="age">Age: </label>
+            <input type="number" name="age" >
+        </div>
+        <div> <label for="registration" name="regd" id="regd">Registration Number: </label>
+            <input type="number" name="regd">
+        </div>
+        <div><label for="section" name="section" id="section">Section: </label>
+            <input type="text" name="section">
+        </div>
+        <div><label for="phone" name="phone" id="phone">Phone Number: </label>
+            <input type="number" name="phone">
+        </div>
+        <div> <label for="email" name="email" id="email">Email: </label>
+            <input type="email" name="email">
+        </div>
+        <div>
+            <label for="date">D.O.B: </label>
+            <input type="date" name="date" id="date">
+
+        </div>
+        <div>
+            <label for="time">Time: </label>
+            <input type="datetime-local" name="time">
+        </div>
+        <div><label for="gender">Gender: </label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+        </div>
+
+        <div> <label for="sports">Choice of sports: </label>
+            <input type="checkbox" name="football" id="football" value="football">
+            <label for="football">Football</label>
+            <input type="checkbox" name="basketball" id="basketball" value="basketball">
+            <label for="football">Basketball</label>
+            <input type="checkbox" name="cricket" id="cricket" value="cricket">
+            <label for="football">Cricket</label>
+            <input type="checkbox" name="badminton" id="badminton" value="badminton">
+            <label for="football">Badminton</label>
+            <input type="checkbox" name="marathon" id="marathon" value="marathon">
+            <label for="football">Marathon</label>
+        </div>
+        <div>
+            <p>Fooding: </p>
+            <select name="food" id="food">
+                <option value="veg">Veg</option>
+                <option value="nonveg">Non-Veg</option>
+            </select>
+        </div>
+        <div>
+            <textarea name="queries" id="queries">Any querie....</textarea>
+        </div>
+        <div>
+            <input type="submit"> 
+            <input type="reset">
+        </div>
+    </fieldset>
+    </form>
+</body>
+
+</html>

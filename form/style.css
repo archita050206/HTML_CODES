@@ -1,0 +1,34 @@
+form div{
+    
+    padding-bottom: 15px;
+    
+}
+form{
+    margin: 50px 200px;
+    padding:50px 200px;
+}
+body{
+    color:white;
+    background-image: url("https://4kwallpapers.com/images/walls/thumbs_2t/10307.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+    
+}
+fieldset{
+    background-image: url("https://png.pngtree.com/background/20231031/original/pngtree-milky-way-universe-vertical-background-featuring-a-dark-starry-sky-and-picture-image_5821257.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+
+}
+fieldset legend{
+    font-size: 30px;
+    color:rgb(171, 203, 227);
+}
+form input:hover{
+    background-color:chocolate;
+}
