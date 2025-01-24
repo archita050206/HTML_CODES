@@ -1,0 +1,26 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+}
+
+.d2{
+    display: flex;
+    gap: 20px;
+}
+#wolf{
+    text-align: center;
+    
+}
+#para{
+    font-family: serif;
+    margin: 50px 200px;
+}
+form div{
+    margin: 10px 0px;
+}
+form{
+    margin: 0px 400px;
+}

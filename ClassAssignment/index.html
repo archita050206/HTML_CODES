@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>widlife sanctuary</title>
+</head>
+<body>
+    <nav style="display: flex; align-items: center; padding: 0px 20px; justify-content: center;">
+        
+        <div class="d2">
+        <h3>Home</h3>
+        <h3>About us</h3>
+        <h3>Contact Us</h3>
+    </div>
+    </nav>
+    <div id="wolf"><img src="wolf.jpg" alt="animal" height="500"></div>
+    <div id="para"><p>Welcome to Nature's House
+        Nestled in the heart of nature, Nature's House is a haven for wildlife and a retreat for nature enthusiasts. Spread across [area size], our sanctuary is home to a diverse array of flora and fauna, including rare and endangered species.
+        Explore lush forests, serene water bodies, and sprawling landscapes teeming with life. Experience the magic of the wilderness through guided tours, bird-watching trails, and eco-friendly activities that bring you closer to nature while promoting conservation.
+        At Nature's House, we are committed to preserving biodiversity and fostering harmony between humans and the natural world. Whether you're an avid wildlife photographer, a family on an adventure, or someone seeking solace in nature, our sanctuary offers an unforgettable experience.
+        Plan your visit today and be part of our journey to protect the wild!  </p></div>
+    <form action="post">
+        <fieldset>
+            <legend style="font-size: 20px;">Wildlife Sanctuary Club Registration</legend>
+            <div>Name: <input type="text" name="name" placeholder="Enter name here" id="name"></div>
+            <div>email id: <input type="email" name="email" id="form"></div>
+            <div>Phone: <input type="number" name="phone" ></div>
+            <div>Male: <input type="radio" name="a"></div>
+            <div>Female:  <input type="radio" name="a"></div>
+            <div>Services: 
+                Study and Reasearch: <input type="checkbox" name="study">
+                Reasearch and Development <input type="checkbox" name="research">
+                Tourism: <input type="checkbox" name="tourism">
+            </div>
+            <div>Date: <input type="date" name="date">
+            </div>
+            <div>Country: 
+                <select name="Country" id="country">
+                    <option value=""></option>
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="UAE">UAE</option>
+                </select>
+            </div>
+            <textarea name="comments" id="" rows="5">Comments....</textarea>
+        </fieldset>
+        
+    </form>
+</body>
+</html>

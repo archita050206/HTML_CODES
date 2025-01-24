@@ -1,0 +1,52 @@
+.grid{
+    grid-template-areas: 
+    'A B C'
+    'D E F'
+    'G H I';
+    padding: 10px;
+    margin: 1px;
+    border: 2px solid black;
+    display: grid;
+}
+.grid-items{
+border: 2px solid black;
+padding: 100px;
+}
+#gd1{
+
+    background-color: red;
+    grid-area: A;
+
+}
+#gd2{
+    background-color: cyan;
+    grid-area: B;
+}
+#gd3{
+    background-color: yellowgreen;
+    grid-area: C;
+}
+#gd4{
+    background-color: yellowgreen;
+    grid-area: D;
+}
+#gd5{
+    background-color: white;
+    grid-area: E;
+}
+#gd6{
+    background-color: red;
+    grid-area: F;
+}
+#gd7{
+    background-color: white;
+    grid-area: G;
+}
+#gd8{
+    background-color: red;
+    grid-area: H;
+}
+#gd9{
+    background-color: cyan;
+    grid-area: I;
+}
