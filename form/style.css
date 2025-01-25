@@ -30,5 +30,10 @@ fieldset legend{
     color:rgb(171, 203, 227);
 }
 form input:hover{
-    background-color:chocolate;
+    background-color:rgb(231, 187, 155);
+}
+input{
+    border-radius: 12px;
+    height: 28px;
+    padding: 0px 10px;
 }
