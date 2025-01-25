@@ -1,52 +1,53 @@
 .grid{
-    grid-template-areas: 
-    'A B C'
-    'D E F'
-    'G H I';
-    padding: 10px;
-    margin: 1px;
-    border: 2px solid black;
     display: grid;
+    grid-template-areas: 
+    'one two two three three'
+    'one four five five six'
+    'seven four five five six'
+    'seven eight eight nine six';
+    padding: 50px 250px;
+    margin: 50px 50px;
+    height: 200px;
+
 }
 .grid-items{
-border: 2px solid black;
-padding: 100px;
+    border: 2px solid black;
+    padding: 20px 10px;
+    text-align: center;
 }
 #gd1{
-
     background-color: red;
-    grid-area: A;
-
+    grid-area: one;
 }
 #gd2{
     background-color: cyan;
-    grid-area: B;
+    grid-area: two;
 }
 #gd3{
     background-color: yellowgreen;
-    grid-area: C;
+    grid-area: three;
 }
 #gd4{
     background-color: yellowgreen;
-    grid-area: D;
+    grid-area: four;
 }
 #gd5{
     background-color: white;
-    grid-area: E;
+    grid-area: five;
 }
 #gd6{
     background-color: red;
-    grid-area: F;
+    grid-area: six;
 }
 #gd7{
     background-color: white;
-    grid-area: G;
+    grid-area: seven;
 }
 #gd8{
     background-color: red;
-    grid-area: H;
+    grid-area: eight;
 }
 #gd9{
     background-color: cyan;
-    grid-area: I;
+    grid-area: nine;
 }
