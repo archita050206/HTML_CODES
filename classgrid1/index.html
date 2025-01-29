@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid{
+            border: 1px solid black;
+            display: grid;
+            grid-template-areas: 
+            'one two two three'
+            'one four five five'
+            'six seven seven ten'
+            'eight eight nine ten'
+            'eleven twelve twelve thirteen'
+            'eleven fourteen fifteen fifteen'
+            'sixteen seventeen seventeen eighteen';
+            gap: 2px;
+            margin: 50px 400px;
+        }
+
+        .gd{
+            border: 2px solid black;
+            padding: 20px 20px;
+            display: flex;
+            justify-content: center;
+            background-color:  rgb(231, 205, 235);
+        }
+        #g1{
+            grid-area: one;
+        }
+        #g2{
+            grid-area: two;
+        }
+        #g3{
+            grid-area: three;
+        }
+        #g4{
+            grid-area: four;
+        }
+        #g5{
+            grid-area: five;
+        }
+        #g6{
+            grid-area: six;
+        }
+        #g7{
+            grid-area: seven;
+        }
+        #g8{
+            grid-area: eight;
+        }
+        #g9{
+            grid-area: nine;
+        }
+        #g10{
+            grid-area: ten;
+        }
+        #g11{
+            grid-area: eleven;
+        }
+        #g12{
+            grid-area: twelve;
+        }
+        #g13{
+            grid-area: thirteen;
+        }
+        #g14{
+            grid-area: fourteen;
+        }
+        #g15{
+            grid-area: fifteen;
+        }
+        #g16{
+            grid-area: sixteen;
+        }
+        #g17{
+            grid-area: seventeen;
+        }
+        #g18{
+            grid-area: eighteen;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="gd" id="g1">1</div>
+        <div class="gd" id="g2">2</div>
+        <div class="gd" id="g3">3</div>
+        <div class="gd" id="g4">4</div>
+        <div class="gd" id="g5">5</div>
+        <div class="gd" id="g6">6</div>
+        <div class="gd" id="g7">7</div>
+        <div class="gd" id="g8">8</div>
+        <div class="gd" id="g9">9</div>
+        <div class="gd" id="g10">10</div>
+        <div class="gd" id="g11">11</div>
+        <div class="gd" id="g12">12</div>
+        <div class="gd" id="g13">13</div>
+        <div class="gd" id="g14">14</div>
+        <div class="gd" id="g15">15</div>
+        <div class="gd" id="g16">16</div>
+        <div class="gd" id="g17">17</div>
+        <div class="gd" id="g18">18</div>
+    </div>
+</body>
+</html>
