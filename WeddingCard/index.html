@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style>
+         #haha{
+        text-shadow: 
+        -1px -1px 0 black,  
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
+    }
+    .my-shadow {
+  filter: drop-shadow(4px 9px 3px rgb(39, 38, 38)); /* Custom blue shadow */
+}
+    </style>
+   
 </head>
 <body>
     <div class="bg-[url('bg.jpg')] h-190 w-380 bg-no-repeat bg-cover bg-center  bg-fixed bg-scroll ">
@@ -21,25 +34,25 @@
         <p class="text-4xl text-center pt-16 text-white drop-shadow-[2px_2px_2px_black]">New York | Gaming Arena | February 15th </p>
 
     </div></div>
-    <div class=" drop-shadow-[2px_2px_2px_black] text-white bg-[url('https://png.pngtree.com/thumb_back/fh260/background/20211217/pngtree-1920-promotional-poster-background-image_923117.jpg')] bg-no-repeat bg-cover bg-center bg-fixed">
-        <div><h1 class="pt-30 pb-8 text-5xl text-center font-bold">Hello players! </h1>
-        <h1 class="text-2xl text-center pb-25">Ready to take on the challenge?</h1></div>
+    <div id="haha" class=" text-lime-100 bg-[url('https://images8.alphacoders.com/137/1377841.png')] backdrop-blur-lg bg-no-repeat bg-cover bg-center bg-fixed">
+        <div><h1 class="drop-shadow-[4px_10px_4px_black] pt-30 pb-8 text-5xl text-center font-bold">Hello players! </h1>
+        <h1 class="drop-shadow-[4px_10px_4px_black] text-4xl text-center pb-25">Ready to take on the challenge?</h1></div>
         <div class="flex  flex-col h-200 w-280">
-            <div class="flex mb-30"><pre class="ps-20 text-lg">
+            <div class="flex mb-30"><pre class=" my-shadow drop-shadow-[4px_9px_3px_black] ps-20 text-xl">
                 Valorant is a free-to-play tactical first-person shooter developed by Riot Games.
                 It features team-based gameplay where players choose agents with unique abilities
                 and work together to either plant/defuse a bomb or eliminate the opposing team. 
                 The game emphasizes strategy, precise aiming, and team coordination.</pre>
             <img class="h-30 ps-10" src="https://i.pinimg.com/736x/bf/f0/8a/bff08ad47ae648e775598f70d8bcd919.jpg" alt=""></div>
            
-            <div class="flex ms-50 mb-30"><img class=" h-30" src="https://i.pinimg.com/474x/45/4b/b9/454bb967b076eafe0ba058ae66468f86.jpg" alt="">
-            <pre class="text-left text-lg box-border">
+            <div style=" display: flow-root;" class="flex ms-50 mb-30"><img class=" h-30" style="float: left;"  src="https://i.pinimg.com/474x/45/4b/b9/454bb967b076eafe0ba058ae66468f86.jpg" alt="">
+            <pre class="my-shadow drop-shadow-[4px_9px_3px_black] text-left text-xl box-border">
             League of Legends is a free-to-play multiplayer online battle arena (MOBA) game 
             developed by Riot Games. Players control unique champions with distinct abilities 
             and compete in teams to destroy the enemy's Nexus, the core of their base, while 
             defending their own. It emphasizes strategy, teamwork, and skillful gameplay.
         </pre></div>
-        <div class="flex"><pre class="ps-20 text-lg">
+        <div class="flex "><pre class="drop-shadow-[4px_9px_3px_black] ps-20 text-xl my-shadow">
                 Teamfight Tactics (TFT) is an auto-battler game where players strategically place 
                 champions on a grid to fight automatically. Players collect and upgrade champions,
                 build synergies, and manage resources to outlast opponents and be the last one standing.</pre>
